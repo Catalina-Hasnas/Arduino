@@ -36,7 +36,7 @@ void setup(){
   // turn the green LED on
   digitalWrite(greenLed, HIGH);
   // move the servo to the unlocked position
-  myServo.write(0);
+  myServo.write(50);
   // print status to the serial monitor
   Serial.println("the box is unlocked!");
 }
